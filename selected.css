@@ -1,0 +1,48 @@
+.selected-menu-item {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(241, 234, 157);
+    padding: 20px;
+    background-color: linen;
+}
+
+.selected-photo {
+    width: 100%;
+}
+
+.selected-item-info {
+    margin: 20px 0;
+}
+
+.selected-item-info div h4 {
+    position: absolute;
+    font-size: 25px;
+    top: 400px;
+    left: 16px;
+    background-color: bisque;
+    color: rgb(140, 153, 153);
+    padding: 7px 45px;
+}
+
+.selected-menu-item button {
+    cursor: pointer;
+    padding: 20px;
+    border: none;
+    background: silver;
+    position: relative;
+    outline: none;
+    border-radius: 5px;
+    color: #292d48;
+    font-size: 18px;
+}
+
+.nothing-found {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
