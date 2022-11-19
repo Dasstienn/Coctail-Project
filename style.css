@@ -10,7 +10,11 @@ html {
 
 body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #57544F;
+    background-image: url(https://media.tenor.com/xfsFj7A6lJMAAAAd/galaxy.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .selected-body {
@@ -20,11 +24,11 @@ body {
 
 header {
     width: 100%;
-    min-height: 1080px;
-    background: url(https://seytechschool.github.io/21-7-team1-cocktail-project/images/bar-bg.gif);
+    min-height: 280px;
+    /* background: url(https://seytechschool.github.io/21-7-team1-cocktail-project/images/bar-bg.gif);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
